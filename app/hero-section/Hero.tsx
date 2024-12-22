@@ -19,9 +19,9 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/akshay-borse/30min"
+            href="https://drive.google.com/file/d/152uBuZ5bCeg-9C6jAZq2F1McQBUA-3Ga/view?usp=drive_link/view"
             target="_blank" 
-            aria-label="BOOK A CALL"
+            aria-label="VIEW RESUME"
           >
 
             <motion.button
