@@ -23,7 +23,7 @@ export const reviewDetails = [
     company: "Ocean Monks",
     profileImg: tushar,
     testimonial:
-      "Working with Akshay Borse has been a highly rewarding experience. As a tech expert, his deep understanding of complex technologies and innovative problem-solving abilities have been crucial to the success of our projects. His ability to lead and guide the team through technical challenges has been invaluable.",
+      "Working with Akshay Borse has been a highly rewarding experience. As a tech expert, his deep understanding of complex technologies and innovative problem-solving abilities have been crucial to the success of our projects.",
   },
   {
     name: "Divyesh Shirsat",
@@ -31,7 +31,7 @@ export const reviewDetails = [
     company: "Ocean Monks",
     profileImg: divyesh,
     testimonial:
-      "Akshay Borse has been a key contributor to our tech initiatives. His technical expertise and hands-on approach in solving intricate problems have been instrumental in delivering cutting-edge solutions. I’ve always been impressed by his ability to think outside the box and lead the team to achieve remarkable results.",
+      "Akshay Borse has been a key contributor to our tech initiatives. His technical expertise and hands-on approach in solving intricate problems have been instrumental in delivering cutting-edge solutions.",
   },
   {
     name: "Kamlesh Prajapati",
@@ -39,7 +39,7 @@ export const reviewDetails = [
     company: "Ocean Monks",
     profileImg: kamlesh,
     testimonial:
-      "Working alongside Akshay Borse has been a fantastic learning experience. His technical knowledge and problem-solving skills have guided me through some of the most challenging tasks. Akshay’s leadership and mentorship have made a significant impact on both my professional growth and the success of our projects.",
+      "Working alongside Akshay Borse has been a fantastic learning experience. His technical knowledge and problem-solving skills have guided me through some of the most challenging tasks.",
   },
   //{
   //  name: "Akshay Borse",
