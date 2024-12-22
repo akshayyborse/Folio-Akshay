@@ -145,7 +145,7 @@ const Contact = () => {
  //               wordSpace={"mr-[0.25em]"}
  //               charSpace={"mr-[0.01em]"}
  //             />
-//          </Link>
+           </Link>
           </div>
         </div>
       </div>
