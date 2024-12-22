@@ -132,7 +132,20 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            
+            <Link
+             href="https://oceanmonks.in/"
+              target="_blank"
+              aria-label="View Website"
+            >
+              <AnimatedTitle
+                text={"HN"}
+                className={
+                  "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
+                }
+                wordSpace={"mr-[0.25em]"}
+                charSpace={"mr-[0.01em]"}
+              />
+           </Link>
           </div>
         </div>
       </div>
