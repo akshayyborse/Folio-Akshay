@@ -11,11 +11,11 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
-    name: "Odunsi",
+    name: "Custom Font Editor",
     description:
-      "Portfolio website for Michael Odunsi, an experienced UI/UX designer crafting unique, user-friendly products and web experiences for Web3 founders and projects.",
+      "Website for Custom font use in image, an  UI/UX designer crafting unique, user-friendly photos.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    demo: "https://www.odunsi.xyz/",
+    demo: "https://custom-font-editor.vercel.app/",
     image: require(".//../../public/projects/odunsi.png"),
     available: true,
   },
