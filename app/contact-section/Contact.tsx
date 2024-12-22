@@ -133,12 +133,12 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://oceanmonks.in/"
+              href="https://www.instagram.com/stories/highlights/17906207131268423/"
               target="_blank"
               aria-label="View Website"
             >
               <AnimatedTitle
-                text={"HN"}
+                text={"ME"}
                 className={
                   "text-[16px] font-bold text-[#e4ded7] sm:text-[20px] md:text-[16px] lg:text-[28px]"
                 }
