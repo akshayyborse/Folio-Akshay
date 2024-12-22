@@ -118,7 +118,7 @@ const Contact = () => {
                 charSpace={"mr-[0.01em]"}
               />
             </Link>
-            <Link
+            { <Link
               href="https://www.instagram.com/akshayyborse/"
               target="_blank"
               aria-label="View Instagram Profile"
