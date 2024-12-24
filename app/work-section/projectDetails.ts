@@ -21,11 +21,11 @@ export const devProjects = [
   },
   {
     id: 1,
-    name: "Interlock",
+    name: "URLshortner",
     description:
-      "This is a website for a Fintech Startup to showcase their innovative solutions tailored to meet the evolving needs of their clients.",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-    demo: "https://interlock-teal.vercel.app/",
+      "This is a website for short the url of any website.",
+    technologies: ["HTML", "CSS", "Framer Motion", "JavaScript"],
+    demo: "https://urlshortner-akshay.vercel.app/",
     image: require(".//../../public/projects/interlock.png"),
     available: true,
   },
