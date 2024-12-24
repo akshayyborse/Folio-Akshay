@@ -16,7 +16,7 @@ export const devProjects = [
       "Website for Custom font use in image, an  UI/UX designer crafting unique, user-friendly photos.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     demo: "https://custom-font-editor.vercel.app/",
-    image: require(".//../../public/projects/odunsi.png"),
+    image: require(".//../../public/projects/odunsi-mobile.png"),
     available: true,
   },
   {
