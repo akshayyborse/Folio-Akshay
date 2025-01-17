@@ -13,7 +13,7 @@ const syne = Syne({
 export const metadata: Metadata = {
   title: "Akshay Borse — Frontend Engineer",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely, India.",
+    "Frontend Engineer and Web Designer, currently at Oceanmonks. Focused on interfaces and experiences, working remotely, India.",
   generator: "Next.js",
   applicationName: "Akshay Borse",
   keywords: [
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Akshay Borse — Frontend Engineer",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely, India.",
+      "Frontend Engineer and Web Designer, currently at Oceanmonks. Focused on interfaces and experiences, working remotely, India.",
     url: "https://www.oceanmonks.in/",
     siteName: "www.oceanmonks.in",
     images: [
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Akshay Borse — Frontend Engineer",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely, India.",
+      "Frontend Engineer and Web Designer, currently at Oceanmonks. Focused on interfaces and experiences, working remotely, India.",
     creator: "akshayyborse",
     creatorId: "1243720976552144897",
     images: [
