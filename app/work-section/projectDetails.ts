@@ -35,7 +35,7 @@ export const devProjects = [
     description:
       "A user-friendly platform designed for downloading emojis effortlessly. Perfect for developers and designers looking to integrate emojis into their projects.",
     technologies: ["React", "HTML 5","CSS3", "JS"],
-    demo: "https://emoji-rho.vercel.app/",
+    demo: "https://emoji0.vercel.app/",
     image: require(".//../../public/projects/synthetix-flip.png"),
     available: true,
   },
