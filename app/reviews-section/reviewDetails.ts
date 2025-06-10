@@ -35,7 +35,7 @@ export const reviewDetails = [
   },
   {
     name: "Kamlesh Prajapati",
-    role: "Engineer",
+    role: "COO",
     company: "Ocean Monks",
     profileImg: kamlesh,
     testimonial:
