@@ -9,9 +9,9 @@ import Image from "next/image";
 
 const Reviews = () => {
   return (
-    <section className="z-10 flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-20 md:pb-16 lg:pb-24">
+    <section className="z-10 flex w-full flex-col items-center justify-center overflow-hidden bg-[#0E1016] bg-cover bg-center pt-10 md:pt-20 md:pb-16 lg:pb-24">
       <div
-        className={`relative mb-16 flex w-full flex-col items-center justify-center gap-10  text-[#e4ded7] sm:items-center lg:max-w-[1440px]`}
+        className={`relative mb-8 flex w-full flex-col items-center justify-center gap-6 text-[#e4ded7] sm:mb-16 sm:gap-10 sm:items-center lg:max-w-[1440px]`}
       >
         <AnimatedWords2
           title={"TESTIMONIALS"}
@@ -22,7 +22,7 @@ const Reviews = () => {
           className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
         />
       </div>
-      <motion.div className="grid w-[90%] max-w-[1345px] grid-cols-1 grid-rows-6 place-content-center place-items-center gap-x-6 gap-y-6 sm:grid-cols-2  sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-1">
+      <motion.div className="grid w-[90%] max-w-[1345px] grid-cols-1 grid-rows-6 place-content-center place-items-center gap-x-6 gap-y-4 sm:gap-y-6 sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-1">
         {reviewDetails.map((review, index) => {
           return (
             <ReviewCard
