@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "creative developer",
     "creative engineer",
     "tech",
-    "nigeria",
+    "India",
     "software",
     "software developer",
     "portfolio",
