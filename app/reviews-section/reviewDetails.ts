@@ -10,60 +10,58 @@ export type reviewProps = {
   name: string;
   role: string;
   company: string;
-  profileImg: StaticImageData;
+  profileImg: string;
   testimonial: string;
   index: number;
 };
 
-
 export const reviewDetails = [
   { 
-    name: "Tushar Shirsat",
+    name: "Tushar",
     role: "CEO",
     company: "Ocean Monks",
     profileImg: tushar,
     testimonial:
-      "Working with Akshay Borse has been a highly rewarding experience. As a tech expert, his deep understanding of complex technologies and innovative problem-solving abilities have been crucial to the success of our projects.",
+      "As CEO of Ocean Monks, I have had the pleasure of working closely with Akshay Borse. His technical leadership and innovative mindset have played a pivotal role in driving our company's success and delivering exceptional results for our clients.",
   },
   {
-    name: "Divyesh Shirsat",
-    role: "CTO",
-    company: "Ocean Monks",
+    name: "Divyesh ",
+    role: "CEO",
+    company: "The Advertisement",
     profileImg: divyesh,
     testimonial:
-      "Akshay Borse has been a key contributor to our tech initiatives. His technical expertise and hands-on approach in solving intricate problems have been instrumental in delivering cutting-edge solutions.",
+      "As the CEO of The Advertisement, I can confidently say that Akshay Borse's expertise in web development and creative problem-solving has elevated our digital presence. His dedication and professionalism make him an invaluable asset to any project.",
   },
   {
     name: "Kamlesh Prajapati",
-    role: "COO",
-    company: "Ocean Monks",
+    role: "Editor",
+    company: "Personal Folio",
     profileImg: kamlesh,
     testimonial:
-      "Working alongside Akshay Borse has been a fantastic learning experience. His technical knowledge and problem-solving skills have guided me through some of the most challenging tasks.",
+      "As Editor for Personal Folio, collaborating with Akshay Borse has been an inspiring experience. His attention to detail and technical proficiency have greatly enhanced the quality and impact of our portfolio projects.",
   },
-  //{
-  //  name: "Akshay Borse",
- //   role: "Full Stack Developer",
- //   company: "Ocean Monks",
- //   profileImg: akshay,
- //   testimonial:
- //     "My experience as a Full Stack Developer at Ocean Monks has been incredibly rewarding. I've contributed to creating robust, scalable applications and user-friendly interfaces that have significantly enhanced our clients' digital capabilities.",
-//  },
- // {
-  //  name: "Honey R.",
-  //  role: "HR",
-  //  company: "Ocean Monks",
-  //  profileImg: honey,
-   // testimonial:
-    //  "As the HR representative, I've witnessed firsthand the exceptional talent and dedication of our team. Our collaborative culture and focus on professional growth have been key factors in attracting and retaining top-tier professionals in the tech industry.",
- // },
- // {
- //   name: "Harsh P.",
- //   role: "Sales Specialist",
-  //  company: "Ocean Monks",
-  //  profileImg: harsh,
-  //  testimonial:
-  //    "In my role as Sales Specialist, I've had the privilege of connecting clients with our innovative solutions. The consistent positive feedback we receive is a testament to our team's technical expertise and commitment to delivering outstanding results.",
- // },
+  // {
+  //   name: "Akshay Borse",
+  //   role: "Full Stack Developer",
+  //   company: "Ocean Monks",
+  //   profileImg: akshay,
+  //   testimonial:
+  //     "As a Full Stack Developer at Ocean Monks, I have contributed to building robust, scalable applications that empower our clients. The collaborative environment and challenging projects have fueled my growth and passion for technology.",
+  // },
+  // {
+  //   name: "Honey R.",
+  //   role: "HR",
+  //   company: "Ocean Monks",
+  //   profileImg: honey,
+  //   testimonial:
+  //     "As HR at Ocean Monks, I have witnessed Akshay's commitment to teamwork and professional growth. His positive attitude and technical skills have made a significant impact on our company culture and success.",
+  // },
+  // {
+  //   name: "Harsh P.",
+  //   role: "Sales Specialist",
+  //   company: "Ocean Monks",
+  //   profileImg: harsh,
+  //   testimonial:
+  //     "As a Sales Specialist at Ocean Monks, I have seen firsthand how Akshay's technical solutions drive client satisfaction. His ability to translate business needs into innovative products is truly impressive.",
+  // },
 ];
-
