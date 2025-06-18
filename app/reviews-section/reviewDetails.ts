@@ -33,7 +33,7 @@ export const reviewDetails = [
       "As the CEO of The Advertisement, I can confidently say that Akshay Borse's expertise in web development and creative problem-solving has elevated our digital presence. His dedication and professionalism make him an invaluable asset to any project.",
   },
   {
-    name: "Kamlesh Prajapati",
+    name: "Kamlesh ",
     role: "Editor",
     company: "Personal Folio",
     profileImg: kamlesh,
