@@ -2,6 +2,8 @@
 
 A modern, responsive portfolio website built with Next.js 14, showcasing the work and skills of Akshay Borse, a Frontend Engineer and Web Designer at Oceanmonks.
 
+**🌐 Live Demo**: [folio-akshay.vercel.app](https://folio-akshay.vercel.app)
+
 ## 🌟 Features
 
 - **Modern Design**: Clean, professional design with smooth animations
@@ -65,8 +67,8 @@ A modern, responsive portfolio website built with Next.js 14, showcasing the wor
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/portfolio.git
-   cd portfolio
+   git clone https://github.com/akshayyborse/Folio-Akshay.git
+   cd Folio-Akshay
    ```
 
 2. **Install dependencies**
@@ -125,7 +127,7 @@ Update the following files with your information:
 Create a `.env.local` file for any environment-specific variables:
 
 ```env
-NEXT_PUBLIC_SITE_URL=your-site-url
+NEXT_PUBLIC_SITE_URL=https://folio-akshay.vercel.app
 ```
 
 ### Vercel Deployment
@@ -156,10 +158,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Akshay Borse**
 - Frontend Engineer at Oceanmonks
-- [LinkedIn](https://www.linkedin.com/in/akshay-borse-069400277/)
+- [LinkedIn](https://www.linkedin.com/in/akshayyborse/)
 - [GitHub](https://github.com/akshayyborse)
 - [Twitter](https://x.com/Akshayyborse)
-- [Portfolio](https://www.oceanmonks.in/)
+- [Portfolio](https://folio-akshay.vercel.app)
 
 ## 🙏 Acknowledgments
 
@@ -172,4 +174,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐ If you found this project helpful, please give it a star!
+⭐ If you found this project helpful, please give it a star! 
