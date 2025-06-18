@@ -157,7 +157,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Akshay Borse**
-- Frontend Engineer at Oceanmonks
 - [LinkedIn](https://www.linkedin.com/in/akshayyborse/)
 - [GitHub](https://github.com/akshayyborse)
 - [Twitter](https://x.com/Akshayyborse)
