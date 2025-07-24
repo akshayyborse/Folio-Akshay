@@ -35,7 +35,7 @@ export const reviewDetails = [
   {
     name: "Kamlesh ",
     role: "Editor",
-    company: "Personal Folio",
+    company: "Freelancer",
     profileImg: kamlesh,
     testimonial:
       "As Editor for Personal Folio, collaborating with Akshay Borse has been an inspiring experience. His attention to detail and technical proficiency have greatly enhanced the quality and impact of our portfolio projects.",
