@@ -3,13 +3,20 @@ import ProjectGrid from "./ProjectGrid";
 const Work = () => {
   return (
     <section
-      className="relative z-10 flex w-full flex-col items-center justify-center bg-[#0E1016] bg-cover bg-center py-16 md:py-20 lg:py-20"
       id="work"
+      className="w-full bg-black"
     >
-      <h2 className="mb-10 hidden text-[36px] text-[#e4ded7] md:mb-16 md:text-[42px] lg:mb-16 lg:text-[72px]">
-        Featured Work
-      </h2>
+      {/* Section intro */}
+      <div className="mx-auto max-w-[1400px] px-6 py-32">
+        <h2 className="text-[56px] font-extrabold tracking-tight text-white md:text-[72px]">
+          Work
+        </h2>
+        <p className="mt-4 max-w-xl text-white/60">
+          Selected projects and long-term explorations.
+        </p>
+      </div>
 
+      {/* Full-width projects */}
       <ProjectGrid />
     </section>
   );
