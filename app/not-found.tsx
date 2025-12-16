@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function NotFound(): JSX.Element {
   return (
-    <div className="flex h-screen flex-col items-center justify-center bg-[#0E1016] text-[#e4ded7] gap-6 text-center px-4">
+    <div className="flex h-screen flex-col items-center justify-center bg-[#000000] text-[#e4ded7] gap-6 text-center px-4">
       <motion.h1
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
