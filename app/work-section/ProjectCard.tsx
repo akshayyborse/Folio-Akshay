@@ -19,8 +19,7 @@ const ProjectCard = ({
       className="w-full border-b border-white/10"
     >
       {/* Full width row */}
-      <div className="mx-auto flex max-w-[1400px] flex-col gap-8 px-6 py-24 md:flex-row md:items-start md:justify-between">
-
+      <div className="mx-auto flex max-w-[1200px] flex-col gap-10 px-6 py-10 md:flex-row md:items-start md:justify-between">
         {/* Left content */}
         <div className="max-w-3xl">
           <h3 className="text-[40px] font-semibold tracking-tight text-white md:text-[56px]">
@@ -37,22 +36,19 @@ const ProjectCard = ({
         </div>
 
         {/* Right CTA */}
-        <div className="mt-6 md:mt-0">
+        <div className="mt-10 md:mt-2">
           {available ? (
             <Link
               href={demo}
               target="_blank"
-              className="text-base font-medium text-white/60 transition hover:text-white"
+              className="text-sm font-medium text-white/60 transition hover:text-white"
             >
               View Project →
             </Link>
           ) : (
-            <span className="text-base text-white/40">
-              Coming soon
-            </span>
+            <span className="text-sm text-white/40">Coming soon</span>
           )}
         </div>
-
       </div>
     </motion.article>
   );
