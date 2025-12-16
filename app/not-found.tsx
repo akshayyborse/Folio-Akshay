@@ -9,7 +9,7 @@ export default function NotFound(): JSX.Element {
       </p>
 
       <Image
-        src="https://raw.githubusercontent.com/akshayyborse/akshayyborse/34883b2c3b5a771f7e5af8d52fa546870fe30996/notfound.gif"
+        src="https://raw.githubusercontent.com/akshayyborse/akshayyborse/main/notfound.gif"
         alt="Not Found"
         width={858}
         height={483}
