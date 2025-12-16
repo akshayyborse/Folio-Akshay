@@ -11,6 +11,51 @@ export type ProjectProps = {
 export const devProjects = [
   {
     id: 0,
+    name: "The Advertisement",
+    description:
+    "A modern agency website built to showcase creative advertising services, brand storytelling and digital campaigns. Designed with a strong visual hierarchy and smooth interactions to highlight work, communicate value and convert visitors into clients.",
+  technologies: [
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+    demo: "https://www.theadvertisement.in/",
+    image: require(".//../../public/projects/odunsi-mobile.png"),
+    available: true,
+  },
+  {
+    id: 1,
+    name: "Editor Portfolio",
+    description:
+    "A personal portfolio website crafted for a professional video editor to showcase editing work, creative style, and client projects. The site emphasizes visual storytelling, smooth motion and a clean layout to present work with clarity and impact.",
+  technologies: [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "Framer Motion"
+  ],
+    demo: "http://kamlesh.theadvertisement.in/",
+    image: require(".//../../public/projects/interlock.png"),
+    available: true,
+  },
+  {
+    id: 2,
+    name: "Jadvani Manufacturing",
+    description:
+    "A corporate website developed for a manufacturing brand to present company information, product offerings, and industrial capabilities with clarity and professionalism. The site focuses on clean structure, accessibility and trust-driven design for business clients.",
+  technologies: [
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "JavaScript"
+  ],
+    demo: "https://jadvani.net/",
+    image: require(".//../../public/projects/synthetix-flip.png"),
+    available: true,
+  },
+  {
+    id: 3,
     name: "Custom Font Editor",
     description:
       "Website for Custom font use in image, an  UI/UX designer crafting unique, user-friendly photos.",
@@ -20,7 +65,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+    id: 4,
     name: "URLshortner",
     description:
       "This is a website for short the url of any website.",
@@ -30,7 +75,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 2,
+    id: 5,
     name: "Emoji Downloader",
     description:
       "A user-friendly platform designed for downloading emojis effortlessly. Perfect for developers and designers looking to integrate emojis into their projects.",
