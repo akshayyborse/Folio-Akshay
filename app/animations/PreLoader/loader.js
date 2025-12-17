@@ -3,61 +3,56 @@ import gsap from "gsap";
 const tl = gsap.timeline();
 
 export const preLoaderAnim = (setIndex, totalWords) => {
-  // Initial setup: make container visible
+  // Make container visible instantly
   tl.to(".texts-container", {
     duration: 0,
     opacity: 1,
-    ease: "Power3.easeOut",
   });
 
-  // Animate in the first word (from bottom with skew for style)
+  // First word: animate in
   tl.from(".texts-container span", {
-    duration: 1.2,
+    duration: 0.6,
     y: 100,
-    skewY: 7,
+    skewY: 8,
     ease: "Power3.easeOut",
   });
 
-  // Cycle through the remaining words
-  if (totalWords > 1) {
-    tl.addLabel("cycleStart");
-
-    for (let i = 1; i < totalWords; i++) {
-      tl.to(".texts-container span", {
-        duration: 0.8,
-        opacity: 0,
-        y: 50,
-        ease: "Power3.easeIn",
-      })
-      .add(() => setIndex(i))  // Update React state to change text
-      .to(".texts-container span", {
-        duration: 0.8,
-        opacity: 1,
-        y: 0,
-        skewY: 0,
-        ease: "Power3.easeOut",
-      }, "-=0.4");  // Overlap for smoother feel
-    }
+  // Cycle through next 4 words (indices 1 to 4 → 5 words total shown)
+  const wordsToShow = 5; // Adjust if you want more/fewer
+  for (let i = 1; i < wordsToShow && i < totalWords; i++) {
+    tl.to(".texts-container span", {
+      duration: 0.4,
+      opacity: 0,
+      y: 40,
+      ease: "Power3.easeIn",
+    })
+    .add(() => setIndex(i)) // Change text
+    .to(".texts-container span", {
+      duration: 0.5,
+      opacity: 1,
+      y: 0,
+      skewY: 0,
+      ease: "Power3.easeOut",
+    }, "-=0.3"); // Overlap for smooth flow
   }
 
-  // After cycling, fade out last word and collapse preloader
+  // Final fade out + collapse
   tl.to(".texts-container span", {
-    duration: 1,
-    y: 70,
-    skewY: -10,
+    duration: 0.5,
+    y: -60,
     opacity: 0,
-    ease: "Power3.easeOut",
-  }, "+=0.5")
+    ease: "Power3.easeIn",
+  }, "+=0.3") // Brief pause on last word
   .to("body", {
     duration: 0.01,
     css: { overflowY: "scroll" },
   })
   .to(".preloader", {
-    duration: 1.5,
+    duration: 0.8,
     height: "0vh",
-    ease: "Power3.easeOut",
+    ease: "Power3.easeInOut",
     onComplete: mobileLanding,
-  }, "-=1")
+  }, "-=0.6")
   .to(".preloader", {
     duration: 0,
     css: { display: "none" },
