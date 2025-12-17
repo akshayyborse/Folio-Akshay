@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     siteName: "www.oceanmonks.in",
     images: [
       {
-        url: "https://raw.githubusercontent.com/akshayyborse/personal/refs/heads/main/Akshay_dev_image.png",
+        url: "https://raw.githubusercontent.com/akshayyborse/akshayyborse/refs/heads/main/Akshay_dev_image.png",
         width: 1200,
         height: 630,
         alt: "Akshay Borse — Frontend Engineer",
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     creator: "akshayyborse",
     creatorId: "1243720976552144897",
     images: [
-      "https://raw.githubusercontent.com/akshayyborse/personal/refs/heads/main/Akshay_dev_image.png",
+      "https://raw.githubusercontent.com/akshayyborse/akshayyborse/refs/heads/main/Akshay_dev_image.png",
     ],
   },
   robots: {
