@@ -1,7 +1,10 @@
-// ProjectCard.tsx
+"use client";
+
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { ProjectProps } from "./projectDetails";
+import { DesktopPreview } from "livecard";
+import { useState } from "react";
 
 const ProjectCard = ({
   name,
@@ -10,44 +13,61 @@ const ProjectCard = ({
   demo,
   available,
 }: ProjectProps) => {
+  const [isLive, setIsLive] = useState(false);
+
   return (
     <motion.article
-      initial={{ opacity: 0, y: 28 }}
+      initial={{ opacity: 0, y: 32 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6, ease: [0.44, 0, 0.22, 0.99] }}
       className="w-full border-b border-white/10"
     >
-      {/* Full width row */}
-      <div className="mx-auto flex max-w-[1200px] flex-col gap-10 px-6 py-10 md:flex-row md:items-start md:justify-between">
-        {/* Left content */}
-        <div className="max-w-3xl">
-          <h3 className="text-[40px] font-semibold tracking-tight text-white md:text-[56px]">
-            {name}
-          </h3>
+      <div className="mx-auto max-w-[1400px] px-6 py-20">
+        <div className="grid gap-16 md:grid-cols-[1fr_1.4fr] items-start">
 
-          <p className="mt-6 text-lg leading-relaxed text-white/60">
-            {description}
-          </p>
+          {/* LEFT — Project Info */}
+          <div className="space-y-8">
+            <h3 className="text-4xl md:text-5xl font-semibold tracking-tight text-white">
+              {name}
+            </h3>
 
-          <div className="mt-8 text-sm uppercase tracking-widest text-white/40">
-            {technologies.join(" · ")}
+            <p className="text-lg leading-relaxed text-white/60 max-w-xl">
+              {description}
+            </p>
+
+            <div className="text-sm uppercase tracking-widest text-white/40">
+              {technologies.join(" · ")}
+            </div>
+
+            {available ? (
+              <Link
+                href={demo}
+                target="_blank"
+                className="inline-block text-sm font-medium text-white/70 transition hover:text-white"
+              >
+                View Live Project →
+              </Link>
+            ) : (
+              <span className="text-sm text-white/40">Coming soon</span>
+            )}
           </div>
-        </div>
 
-        {/* Right CTA */}
-        <div className="mt-10 md:mt-2">
-          {available ? (
-            <Link
-              href={demo}
-              target="_blank"
-              className="text-sm font-medium text-white/60 transition hover:text-white"
-            >
-              View Project →
-            </Link>
-          ) : (
-            <span className="text-sm text-white/40">Coming soon</span>
-          )}
+          {/* RIGHT — Live Preview (DEFAULT SIZE) */}
+          <div className="relative flex justify-center [&>div]:!bg-black">
+            {available ? (
+              <DesktopPreview
+                url={demo}
+                title={name}
+                isLive={isLive}
+                onToggle={() => setIsLive(!isLive)}
+              />
+            ) : (
+              <div className="flex h-[300px] w-full items-center justify-center text-white/40 border border-white/10 rounded-xl">
+                Preview unavailable
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </motion.article>
