@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     description:
       "Frontend Engineer and Web Designer, currently at Oceanmonks. Focused on interfaces and experiences, working remotely, India.",
     url: "https://www.oceanmonks.in/",
-    siteName: "www.oceanmonks.in",
+    siteName: "www.theadvertisement.in",
     images: [
       {
         url: "https://raw.githubusercontent.com/akshayyborse/akshayyborse/refs/heads/main/Akshay_dev_image.png",
