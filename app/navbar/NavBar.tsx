@@ -18,7 +18,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0  mx-auto  flex w-[306px] items-center justify-center gap-1 rounded-lg bg-[#07070a]/90 px-1 py-1 text-[#e4ded7] backdrop-blur-md sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
+    <nav className="fixed bottom-10 left-0 right-0 z-50 my-0 mx-auto flex w-[306px] items-center justify-center gap-1 rounded-full bg-black/20 px-1 py-1 text-[#e4ded7] backdrop-blur-2xl border border-white/10 shadow-lg shadow-black/30 sm:w-[383.3px] md:p-2 lg:w-[391.3px]">
       <Link
         href="https://drive.google.com/file/d/1tjXPuN2gkjxedCIcMO7EM7kzBDoh3wJ6/view"
         target="_blank"
