@@ -115,7 +115,7 @@ const Contact = () => {
               />
             </Link>
             <Link
-              href="https://www.instagram.com/akshayyborse/"
+              href="https://www.instagram.com/akshayyyborse/"
               target="_blank"
               aria-label="View Instagram Profile"
             >
