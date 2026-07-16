@@ -60,7 +60,7 @@ export const devProjects = [
       "JavaScript",
       "Framer Motion"
     ],
-    demo: "http://kamlesh.theadvertisement.in/",
+    demo: "https://kamlesh.theadvertisement.in/",
     image: require(".//../../public/projects/interlock.png"),
     available: true,
   },
