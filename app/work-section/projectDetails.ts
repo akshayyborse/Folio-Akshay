@@ -25,7 +25,22 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 1,
+  id: 1,
+  name: "Twilook",
+  description:
+    "Twilook is a modern fashion and clothing brand website designed to showcase premium apparel collections with a clean shopping experience. The platform features responsive layouts, engaging product displays, smooth animations and a visually appealing interface that enhances brand identity and encourages online purchases.",
+  technologies: [
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+  demo: "https://www.twilook.com/",
+  image: require("../../public/projects/odunsi-mobile.png"),
+  available: true,
+},
+  {
+    id: 2,
     name: "Editor Portfolio",
     description:
     "A personal portfolio website crafted for a professional video editor to showcase editing work, creative style, and client projects. The site emphasizes visual storytelling, smooth motion and a clean layout to present work with clarity and impact.",
@@ -40,7 +55,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 2,
+    id: 3,
     name: "Jadvani Manufacturing",
     description:
     "A corporate website developed for a manufacturing brand to present company information, product offerings, and industrial capabilities with clarity and professionalism. The site focuses on clean structure, accessibility and trust-driven design for business clients.",
@@ -55,7 +70,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 3,
+    id: 4,
     name: "Custom Font Editor",
     description:
       "Website for Custom font use in image, an  UI/UX designer crafting unique, user-friendly photos.",
@@ -65,7 +80,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 4,
+    id: 5,
     name: "URLshortner",
     description:
       "This is a website for short the url of any website.",
@@ -75,7 +90,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 5,
+    id: 6,
     name: "Emoji Downloader",
     description:
       "A user-friendly platform designed for downloading emojis effortlessly. Perfect for developers and designers looking to integrate emojis into their projects.",
