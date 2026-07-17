@@ -54,7 +54,7 @@ export const devProjects = [
   image: require("../../public/projects/ssbullethub.png"),
   useImagePreview: true,
   available: true,
-}
+},
   {
     id: 3,
     name: "Vista Property",
