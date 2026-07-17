@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ProjectProps } from "./projectDetails";
 import { DesktopPreview } from "livecard";
@@ -11,9 +12,11 @@ const ProjectCard = ({
   description,
   technologies,
   demo,
+  image,
   available,
 }: ProjectProps) => {
   const [isLive, setIsLive] = useState(false);
+  const useImagePreview = technologies.some(tech => tech.toLowerCase() === "shopify");
 
   return (
     <motion.article
@@ -56,12 +59,21 @@ const ProjectCard = ({
           {/* RIGHT — Live Preview (DEFAULT SIZE) */}
           <div className="relative flex justify-center [&>div]:!bg-black">
             {available ? (
-              <DesktopPreview
-                url={demo}
-                title={name}
-                isLive={isLive}
-                onToggle={() => setIsLive(!isLive)}
-              />
+              useImagePreview ? (
+                <Image
+                  src={image}
+                  alt={name}
+                  className="rounded-xl border border-white/10 object-cover w-full h-auto"
+                  priority
+                />
+              ) : (
+                <DesktopPreview
+                  url={demo}
+                  title={name}
+                  isLive={isLive}
+                  onToggle={() => setIsLive(!isLive)}
+                />
+              )
             ) : (
               <div className="flex h-[300px] w-full items-center justify-center text-white/40 border border-white/10 rounded-xl">
                 Preview unavailable
