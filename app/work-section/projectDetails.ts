@@ -40,7 +40,23 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 2,
+  id: 2,
+  name: "SSBulletHub",
+  description:
+    "A custom Shopify eCommerce website developed for a Royal Enfield accessories brand. Built with a fully responsive Shopify theme, optimized product pages, intuitive navigation and a seamless shopping experience to improve customer engagement and online sales.",
+  technologies: [
+    "Shopify",
+    "Liquid",
+    "JavaScript",
+    "HTML5",
+    "CSS3"
+  ],
+  demo: "https://ssbullethub.com/",
+  image: require(".//../../public/projects/ssbullethub.png"),
+  available: true,
+},
+  {
+    id: 3,
     name: "Vista Property",
     description:
       "A real estate platform for property listings, seamless navigation, and discovering ideal homes or investments.",
@@ -50,7 +66,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 3,
+    id: 4,
     name: "Editor Portfolio",
     description:
       "A personal portfolio website crafted for a professional video editor to showcase editing work, creative style, and client projects. The site emphasizes visual storytelling, smooth motion and a clean layout to present work with clarity and impact.",
@@ -65,7 +81,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 4,
+    id: 5,
     name: "Jadvani Manufacturing",
     description:
       "A corporate website developed for a manufacturing brand to present company information, product offerings, and industrial capabilities with clarity and professionalism. The site focuses on clean structure, accessibility and trust-driven design for business clients.",
@@ -80,7 +96,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 5,
+    id: 6,
     name: "Custom Font Editor",
     description:
       "Website for Custom font use in image, an  UI/UX designer crafting unique, user-friendly photos.",
@@ -90,7 +106,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 6,
+    id: 7,
     name: "URLshortner",
     description:
       "This is a website for short the url of any website.",
@@ -100,7 +116,7 @@ export const devProjects = [
     available: true,
   },
   {
-    id: 7,
+    id: 8,
     name: "Emoji Downloader",
     description:
       "A user-friendly platform designed for downloading emojis effortlessly. Perfect for developers and designers looking to integrate emojis into their projects.",
