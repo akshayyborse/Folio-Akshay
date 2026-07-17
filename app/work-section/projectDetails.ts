@@ -42,19 +42,19 @@ export const devProjects = [
   {
   id: 2,
   name: "SSBulletHub",
-  description:
-    "A custom Shopify eCommerce website developed for a Royal Enfield accessories brand. Built with a fully responsive Shopify theme, optimized product pages, intuitive navigation and a seamless shopping experience to improve customer engagement and online sales.",
+  description: "...",
   technologies: [
     "Shopify",
     "Liquid",
     "JavaScript",
     "HTML5",
-    "CSS3"
+    "CSS3",
   ],
   demo: "https://ssbullethub.com/",
-  image: require(".//../../public/projects/ssbullethub.png"),
+  image: require("../../public/projects/ssbullethub.png"),
+  useImagePreview: true,
   available: true,
-},
+}
   {
     id: 3,
     name: "Vista Property",
