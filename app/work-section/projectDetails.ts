@@ -42,7 +42,7 @@ export const devProjects = [
   {
   id: 2,
   name: "SSBulletHub",
-  description: "...",
+  description: "A custom Shopify eCommerce website developed for a Royal Enfield accessories brand. Built with a fully responsive Shopify theme, optimized product pages, intuitive navigation and a seamless shopping experience to improve customer engagement and online sales.",
   technologies: [
     "Shopify",
     "Liquid",
